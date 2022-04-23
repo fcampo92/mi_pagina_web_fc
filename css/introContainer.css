@@ -1,0 +1,48 @@
+.introContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.introLeftContainer{
+    width: 100%;
+    background-color: #ccc;
+    background-image: url(/mi_pagina_web_fc/img/portada.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introLeftContainer:hover{
+    
+}
+
+.introLeftContainer span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: #000 2px 2px;
+}
+
+.introLeftContainer p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-shadow: #000 2px 2px;
+}
+
+/* Right Intro Container */
+
+.introRightContainer{
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
